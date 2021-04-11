@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img class="logo" alt="Rice Shower!!!" src="./assets/newrice.png">
+    <Carousel/>
     <div class="icp">
       互联网ICP备案：
       <a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2021008207号-1</a>
@@ -10,12 +10,13 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Carousel from './components/Carousel.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Carousel
   }
 }
 </script>
@@ -27,7 +28,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
+}
+.logo{
+  height: 300px;
+  scale: 1;
 }
 .icp{
   width: 100%;
