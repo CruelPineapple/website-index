@@ -19,6 +19,27 @@ export default {
 </script>
 
 <style scoped>
+@media only screen and (max-width: 850px) {
+	/* 移动端 */
+.main-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.logo {
+	margin: 20px;
+  height: 200px;
+  scale: 1;
+}
+.carousel-container {
+  width: 400px;
+  float: right;
+	margin: 20px;
+}
+}
+@media only screen and (min-width: 851px) {
+	/* 桌面端 */
 .main-container{
 	display: flex;
 	flex-direction: row;
@@ -35,4 +56,6 @@ export default {
   float: right;
 	margin: 40px;
 }
+}
+
 </style>
