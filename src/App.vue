@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <TopTitle/>
     <MainContainer/>
     <div class="icp">
       互联网ICP备案：
@@ -10,11 +11,12 @@
 
 <script>
 import MainContainer from './components/MainContainer.vue'
-
+import TopTitle from './components/TopTitle.vue'
 
 export default {
   name: 'App',
   components: {
+    TopTitle,
     MainContainer
   }
 }
