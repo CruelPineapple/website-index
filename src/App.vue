@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img class="logo" alt="Rice Shower!!!" src="./assets/newrice.png">
-    <Carousel/>
+    <MainContainer/>
     <div class="icp">
       互联网ICP备案：
       <a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2021008207号-1</a>
@@ -10,13 +9,13 @@
 </template>
 
 <script>
-import Carousel from './components/Carousel.vue'
+import MainContainer from './components/MainContainer.vue'
 
 
 export default {
   name: 'App',
   components: {
-    Carousel
+    MainContainer
   }
 }
 </script>
@@ -29,10 +28,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 0px;
-}
-.logo{
-  height: 300px;
-  scale: 1;
 }
 .icp{
   width: 100%;

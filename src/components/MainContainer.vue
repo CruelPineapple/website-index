@@ -1,5 +1,5 @@
 <template>
-  <div class="MainContainer">
+  <div class="main-container">
     <img class="logo" alt="Rice Shower!!!" src="../assets/newrice.png" />
     <div class="carousel-container">
       <Carousel />
@@ -19,7 +19,14 @@ export default {
 </script>
 
 <style scoped>
+.main-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
 .logo {
+	margin: 40px;
   height: 300px;
   scale: 1;
 }
