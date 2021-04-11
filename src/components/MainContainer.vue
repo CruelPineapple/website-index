@@ -33,5 +33,6 @@ export default {
 .carousel-container {
   width: 900px;
   float: right;
+	margin: 40px;
 }
 </style>
