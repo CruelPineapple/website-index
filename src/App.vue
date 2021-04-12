@@ -2,22 +2,21 @@
   <div id="app">
     <TopTitle/>
     <MainContainer/>
-    <div class="icp">
-      互联网ICP备案：
-      <a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2021008207号-1</a>
-    </div>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import MainContainer from './components/MainContainer.vue'
 import TopTitle from './components/TopTitle.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     TopTitle,
-    MainContainer
+    MainContainer,
+    Footer
   }
 }
 </script>
@@ -30,10 +29,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 0px;
-}
-.icp{
-  width: 100%;
-  position: fixed;
-  bottom: 0;
 }
 </style>
