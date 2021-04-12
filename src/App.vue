@@ -1,24 +1,24 @@
 <template>
   <div id="app">
-    <TopTitle/>
-    <MainContainer/>
-    <Footer/>
+    <TopTitle />
+    <MainContainer />
+    <Footer />
   </div>
 </template>
 
 <script>
-import MainContainer from './components/MainContainer.vue'
-import TopTitle from './components/TopTitle.vue'
-import Footer from './components/Footer.vue'
+import MainContainer from "./components/MainContainer.vue";
+import TopTitle from "./components/TopTitle.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     TopTitle,
     MainContainer,
-    Footer
-  }
-}
+    Footer,
+  },
+};
 </script>
 
 <style>
