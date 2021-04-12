@@ -1,8 +1,15 @@
 <template>
-  <div class="icp">
-    互联网ICP备案：
-    <a href="https://beian.miit.gov.cn/" target="_blank"
-      >蜀ICP备2021008207号-1</a>
+  <div class="footer">
+		<!-- <div class="git">
+			<img class="git-img" src="../assets/GitHub.png">
+			<a href="https://github.com/CruelPineapple">CruelPineapple</a>
+		</div> -->
+    <div class="icp">
+      互联网ICP备案：
+      <a href="https://beian.miit.gov.cn/" target="_blank"
+        >蜀ICP备2021008207号-1</a
+      >
+    </div>
   </div>
 </template>
 
@@ -12,9 +19,15 @@ export default {
 };
 </script>
 <style scoped>
-.icp{
+.footer {
   width: 100%;
   position: fixed;
   bottom: 0;
+}
+.git-img{
+	width: 20px;
+}
+.icp{
+	font-size: 10px;
 }
 </style>
