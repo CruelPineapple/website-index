@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <img class="logo" alt="Rice Shower!!!" src="../assets/newrice.png" />
+    <img class="logo" alt="Rice Shower!!!" src="../assets/logo2.png" />
     <div class="carousel-container">
       <Carousel />
     </div>
