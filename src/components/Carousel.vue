@@ -42,11 +42,12 @@ export default {
       });
     },
     Experience: function () {
-      this.$notify({
-        title: "提示",
-        message: "页面开发中",
-        type: "warning",
-      });
+      // this.$notify({
+      //   title: "提示",
+      //   message: "页面开发中",
+      //   type: "warning",
+      // });
+      window.open('http://sakurajimama1.ltd/note/','_blank');
     },
     Git: function(){
       window.open("https://github.com/CruelPineapple")
