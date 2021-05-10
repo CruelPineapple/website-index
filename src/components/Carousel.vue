@@ -1,10 +1,10 @@
 <template>
   <el-carousel :interval="4000" type="card" height="300px">
-    <el-carousel-item class="item">
+    <!-- <el-carousel-item class="item">
       <h2 @click="Log">Log</h2>
       <h4 @click="Log">讲故事</h4>
       <img @click="Log" class="arrow" src="../assets/编辑.png" />
-    </el-carousel-item>
+    </el-carousel-item> -->
     <el-carousel-item class="item">
       <h2 @click="BootCamp">BootCamp</h2>
       <h4 @click="BootCamp">练习场</h4>
@@ -27,13 +27,13 @@
 export default {
   name: "Carousel",
   methods: {
-    Log: function () {
-      this.$notify({
-        title: "提示",
-        message: "页面开发中",
-        type: "warning",
-      });
-    },
+    // Log: function () {
+    //   this.$notify({
+    //     title: "提示",
+    //     message: "页面开发中",
+    //     type: "warning",
+    //   });
+    // },
     BootCamp: function () {
       this.$notify({
         title: "提示",
