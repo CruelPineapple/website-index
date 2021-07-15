@@ -2,18 +2,31 @@
   <div class="main-container">
     <img class="logo" alt="Rice Shower!!!" src="../assets/logo2.png" />
     <div class="carousel-container">
-      <Carousel />
+      <!-- <Carousel /> -->
+      <el-card class="card" shadow="hover">
+        Note>
+      </el-card>
+      <el-card class="card" shadow="hover">
+        BootCamp>
+      </el-card>      
+      <el-card class="card" shadow="hover">
+        <!-- <div class="card-content"> -->
+          <!-- <img class="arrow" src="../assets/GitHub.png"> -->
+          <!-- <p style="display:inline-block">鼠标悬浮时显示</p> -->
+        <!-- </div> -->
+        Git>
+      </el-card>
     </div>
   </div>
 </template>
 
 <script>
-import Carousel from "../components/Carousel.vue";
+// import Carousel from "../components/Carousel.vue";
 
 export default {
   name: "MainContainer",
   components: {
-    Carousel,
+
   },
 };
 </script>
@@ -33,10 +46,22 @@ export default {
   scale: 1;
 }
 .carousel-container {
-  width: 400px;
+  width: 300px;
   float: right;
 	margin: 20px;
 }
+.card {
+  margin-top: 10px;
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+   user-select: none;
+}
+/* .arrow {
+  width: 60px;
+} */
 }
 @media only screen and (min-width: 851px) {
 	/* 桌面端 */
@@ -52,10 +77,32 @@ export default {
   scale: 1;
 }
 .carousel-container {
-  width: 900px;
+  width: 400px;
   float: right;
 	margin: 40px;
 }
+.card{
+  margin-top: 15px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 60px;
+}
+/* .card > .el-card__body{
+    padding: 0;
+} */
+/* .card-content{
+    display: flex;
+  align-items: center;
+
+} */
+/* .arrow {
+  width: 30px;
+  display: inline-block;
+} */
 }
 
 </style>
