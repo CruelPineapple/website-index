@@ -27,13 +27,6 @@
 export default {
   name: "Carousel",
   methods: {
-    // Log: function () {
-    //   this.$notify({
-    //     title: "提示",
-    //     message: "页面开发中",
-    //     type: "warning",
-    //   });
-    // },
     BootCamp: function () {
       this.$notify({
         title: "提示",
@@ -42,11 +35,6 @@ export default {
       });
     },
     Experience: function () {
-      // this.$notify({
-      //   title: "提示",
-      //   message: "页面开发中",
-      //   type: "warning",
-      // });
       window.open('http://sakurajimama1.ltd/note/','_blank');
     },
     Git: function(){

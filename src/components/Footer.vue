@@ -23,6 +23,7 @@ export default {
   width: 100%;
   position: fixed;
   bottom: 0;
+  background-color: whitesmoke;
 }
 .git-img{
 	width: 20px;
