@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <img class="logo" alt="Rice Shower!!!" src="../assets/logo2.png" />
+    <img class="logo" alt="Kira Kira" src="../assets/logo3.png" />
     <div class="carousel-container">
       <!-- <Carousel /> -->
       <el-card :body-style="{ padding: '0px' }" class="card" shadow="hover">
@@ -63,6 +63,7 @@ export default {
     margin: 20px;
     height: 200px;
     scale: 1;
+    border-radius: 50%;
   }
   .carousel-container {
     width: 300px;
@@ -100,6 +101,7 @@ export default {
     margin: 40px;
     height: 300px;
     scale: 1;
+    border-radius: 50%;
   }
   .carousel-container {
     width: 400px;
