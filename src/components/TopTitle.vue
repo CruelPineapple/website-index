@@ -23,7 +23,7 @@ export default {
     font-size: 50px;
     color: white;
     margin: 0;
-    padding-top: 92px;
+    padding-top: 40px;
     font-family: 'Josefin Sans', sans-serif;
 }
 }
