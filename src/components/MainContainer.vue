@@ -34,11 +34,12 @@ export default {
   components: {},
   methods: {
     BootCamp: function() {
-      this.$notify({
-        title: "提示",
-        message: "目前没有测试页面",
-        type: "warning",
-      });
+      // this.$notify({
+      //   title: "提示",
+      //   message: "目前没有测试页面",
+      //   type: "warning",
+      // });
+      window.open("http://sakurajimama1.ltd/asouldigits/");
     },
     Note: function() {
       window.open("http://sakurajimama1.ltd/note/", "_blank");
